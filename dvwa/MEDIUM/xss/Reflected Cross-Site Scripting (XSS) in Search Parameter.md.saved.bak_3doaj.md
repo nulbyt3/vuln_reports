@@ -26,7 +26,7 @@ An attacker could:
 ```js
 <<script>script>alert(1)</script>
 ```
-1. The browser executes the injected `alert(1)` script.  
+3. The browser executes the injected `alert(1)` script.  
 
 - check the testing process => [How i tested](./XSS_dvwa_medium.md)
 
@@ -35,7 +35,7 @@ An attacker could:
 
 ![Local Image](./dvwa_xss_medium.png)
 
-1. Inspect the HTML code and navigate to elements tab and check the `<pre />` tag:
+2. Inspect the HTML code and navigate to elements tab and check the `<pre />` tag:
 
 ![Local image](./dvwa_xss_medium_2.png)
 
